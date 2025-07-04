@@ -1,5 +1,5 @@
 # 🛒 BuyOnline — Web-Based Online Shopping System  
-**COS80021 – Web Application Development
+### COS80021 – Web Application Development
 
 This project was developed as part of a university assignment to demonstrate proficiency in web development using AJAX technologies, PHP, XML, and XSLT. The goal was to create a simplified online shopping platform that supports customer registration, product listing by managers, item purchases, and inventory management.
 
@@ -17,7 +17,7 @@ This project was developed as part of a university assignment to demonstrate pro
 ---
 
 ## 📂 File Structure
-
+'''
 /Project2/ (under www/htdocs)
 │
 ├── buyonline.htm # Main site map
@@ -36,7 +36,7 @@ This project was developed as part of a university assignment to demonstrate pro
 ├── customer.xml # Stores registered customer data
 ├── goods.xml # Stores inventory & item transactions
 ├── manager.txt # Manager ID & password list
-
+'''
 
 ---
 
