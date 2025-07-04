@@ -58,7 +58,7 @@ This project was developed as part of a university assignment to demonstrate pro
 ## 🚀 How to Use
 
 1. Visit the url: https://mercury.swin.edu.au/cos80021/s104361002/Project1/
-   (Only limited time access was provided by the University)
+   (Only limited time access to the server was provided by the University)
 2. Choose either:
    - **Customer Registration/Login** to browse and shop.
    - **Manager Login** to add or manage items.
