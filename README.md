@@ -17,7 +17,7 @@ This project was developed as part of a university assignment to demonstrate pro
 ---
 
 ## 📂 File Structure
-'''
+```
 /Project2/ (under www/htdocs)
 │
 ├── buyonline.htm # Main site map
@@ -36,8 +36,7 @@ This project was developed as part of a university assignment to demonstrate pro
 ├── customer.xml # Stores registered customer data
 ├── goods.xml # Stores inventory & item transactions
 ├── manager.txt # Manager ID & password list
-'''
-
+```
 ---
 
 ## ✅ Features
