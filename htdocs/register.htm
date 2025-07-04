@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register - BuyOnline</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="testRegister.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Register for BuyOnline</h1>
+    </header>
+    <form id="registrationForm" onsubmit="return registerCustomer();">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+        <button type="submit">Register</button>
+    </form>
+    <p id="msg"></p>
+    <p><a href="buyonline.htm">Back to Home</a></p>
+</body>
+</html>

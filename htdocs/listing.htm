@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Item Listing - BuyOnline</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="listItem.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Add New Item to Inventory</h1>
+    </header>
+    <form id="addItemForm" method="post" onsubmit="return addNewItem();">
+        <label for="itemName">Item Name:</label>
+        <input type="text" id="itemName" name="itemName" required><br>
+        
+        <label for="price">Unit Price:</label>
+        <input type="number" id="price" name="price" required><br>
+        
+        <label for="quantity">Quantity Available:</label>
+        <input type="number" id="quantity" name="quantity" required><br>
+        
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" required></textarea><br>
+        
+        <button type="submit">Add Item</button>
+    </form>
+    <p id="resultMsg"></p>
+    <p><a href="mlogin.htm">Logout</a></p>
+    <p><a href="buyonline.htm">Back to Home</a></p>
+</body>
+</html>
